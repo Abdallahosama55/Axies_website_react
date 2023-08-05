@@ -1,0 +1,45 @@
+.svg_color {
+  fill: #4b50e6;
+  width: 30px;
+}
+.after_title:after {
+  background: linear-gradient(216.56deg, #e250e5 5.32%, #4b50e6 94.32%);
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(216.56deg, #e250e5 5.32%, #4b50e6 94.32%);
+}
+.after_title:hover {
+  color: #14141f;
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+}
+.padding_section {
+  transition: all 0.5s linear;
+}
+.padding_section:hover {
+  transform: translateY(5px);
+  transition: all 0.5s linear;
+}
+.padding_section:hover .hover_div {
+  transition: all 0.5s linear;
+  transform: translateY(20px);
+  opacity: 1;
+}
+.hover_div {
+  transition: all 0.5s linear;
+  transform: translateY(5px);
+  opacity: 0;
+}
+.place_pid {
+  border: 1px solid #4b50e6;
+  color: #fff !important;
+}
+.place_pid:hover {
+  background: #4b50e6;
+}

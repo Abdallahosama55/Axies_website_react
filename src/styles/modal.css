@@ -1,0 +1,19 @@
+.overlary {
+  background: #14131352;
+  z-index: 10000;
+}
+.modal_form input {
+  background: none;
+  padding: 20px;
+  border: 1px solid #81797994;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  color: #fff;
+}
+.modal_form input:hover {
+  border: 1px solid white;
+}
+.modal {
+  transition: all 0.5s ease;
+}

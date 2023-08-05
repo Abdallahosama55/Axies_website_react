@@ -1,0 +1,24 @@
+.navbar {
+  border-bottom: 1px solid #cfbebe54;
+}
+ul li {
+  cursor: pointer;
+}
+.wallet_button {
+  border: 2px solid #5142fc;
+  transition: all 0.5s ease-in-out;
+}
+.wallet_button:hover {
+  background-color: white;
+  color: black;
+}
+.wallet_button:hover svg {
+  fill: #5142fc;
+}
+
+.mop_nav {
+  height: 80vh;
+  background: #343444;
+  z-index: 959575598575899;
+  position: fixed !important;
+}
